@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.review-box{
+    text-align: center;
+    border: 2px solid rgb(118, 207, 255);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 36px 200px;
+    background-color: rgb(247, 251, 255);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}

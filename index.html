@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Review Carousel</title>
 </head>
 <body>
   <main>
       <h1> Our Reviews</h1>
       <div class="underline"></div>
-      <div>
+      <div class="review-box">
           <section class="reviewer">
-            <img class=coverPhoto src="" />
-                <h2 class="name">Name</h2>
-                <h2 class="title">title</h2>
-                <p class="review">review</p>
+           
+                <img id='cover-photo' src="" />
+            
+                <h2 id="name">Name</h2>
+                <h2 id="title">title</h2>
+                <p id="review">review</p>
           </section>
-          <button class="arrow"> < </button>
-          <button class="arrow"> > </button>
-          <button class="surprise">Surprise Me</button>
+          <button class="btn prev"> < </button>
+          <button class="btn next"> > </button>
+          <br />
+          <button class="btn surprise">Surprise Me</button>
       </div>
   </main>  
+
+  <script src="main.js"></script>
 </body>
 </html>
